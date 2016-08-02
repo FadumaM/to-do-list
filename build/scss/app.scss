@@ -1,5 +1,43 @@
 @import '_variables';
 
 body{
-  
+  background-color: $primary-color;
+  width: 100vw;
+  margin: 0px;
+  font-family: $font-helvetica;
+
+}
+
+.lionheart-navbar{
+    text-align: center;
+    background-color: $secondary-color;
+    width: 100%;
+    color: $nav-font-color;
+}
+
+.lionheart-navlist{
+  width: 100%;
+  height: 10%;;
+  background-color: lighten($secondary-color, 20%);
+}
+.lionheart-navigation{
+  display: list-item;
+  float: left;
+  list-style: none;
+  margin: 5px 10px 10px 10px;
+  width: 120px;
+  height: 35px;
+}
+.lionheart-link{
+  text-decoration: none;
+  color: $nav-font-color;
+  vertical-align: middle;
+}
+
+.lionheart-section{
+  color: $font-color;
+  margin: 10px 10px 10px 10px;
+}
+.lionheart-heading{
+
 }
